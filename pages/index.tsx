@@ -33,18 +33,6 @@ const Home: NextPage = () => {
             {connected ? <Connected /> : <Disconnected />}
           </Center>
           <Spacer />
-
-          <Center>
-            <Box marginBottom={4} color="white">
-              <a
-                href="https://twitter.com/_buildspace"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                built with @_buildspace
-              </a>
-            </Box>
-          </Center>
         </Stack>
       </Box>
     </div>
